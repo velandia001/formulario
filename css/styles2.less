@@ -1,0 +1,41 @@
+@yellow: #fbff00;
+@red: #ff2200;
+@green: #26ff00;
+
+.margenestb(@top: 0px,@bottom: 0px){
+	margin-top: @top;
+	margin-bottom: @bottom;
+}
+.paddingrl(@right: 0px,@left: 0px){
+	margin-right: @right;
+	margin-left: @left;
+}
+
+.jumbotron{
+	padding: 10px 10px 0 10px;
+	color:  black;
+	.margenestb(50px,50px);
+	background-color:@yellow;
+}
+footer{
+	background-color:@red;
+	.margenestb(10px,0px)
+}
+.card-hotel{
+	flex: 1 200px;
+	margin-top: 10px;
+}
+.footer-address-icon{
+	.paddingrl(10px,0px)
+}
+.footer-socialmedia-icon{
+    .paddingrl(12px,20px)
+}
+.btn-primary-top{
+	margin-top: 10px;	
+}
+.btn-reserva{
+	width: 100%;
+	border-radius: 0px;
+	background-color:@green;
+}

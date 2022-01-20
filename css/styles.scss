@@ -1,0 +1,66 @@
+$yellow: #26ff00;
+$red: #ff2200;
+$green: #3CBD00;
+
+@mixin margenestb($top,$bottom){
+	margin-top: $top;
+	margin-bottom: $bottom;
+}
+@mixin paddingrl($right,$left){
+	margin-right: $right;
+	margin-left: $left;
+}
+
+.jumbotron{
+	padding: 10px 10px 0 10px;
+	color:  black;
+	@include margenestb(50px,50px);
+	
+}
+footer{
+	background-color: $green;
+	@include margenestb(10px,0px)
+	color: black;
+}
+.card-hotel{
+	flex: 1 200px;
+	margin-top: 10px;
+}
+.footer-address-icon{
+	@include paddingrl(10px,0px)
+}
+.footer-socialmedia-icon{
+    @include paddingrl(12px,20px)
+}
+.btn-primary-top{
+	margin-top: 10px;	
+}
+.btn-reserva{
+	width: 100%;
+	border-radius: 0px;
+	background-color: $green;
+	border: 1px solid $green;
+	color: white;
+}
+.btn-destino{
+	width: 100%;
+	border-radius: 4px;
+	background-color: $green;
+	border: 1px solid $green;
+	color: white;
+}
+.btn-test{
+	background-color: white;
+	color: $green;
+	box-shadow: inset 0px 0px 6px #fff;
+	border: 1px solid $green;
+    border-radius: 4px;
+}
+.navigation-bar{
+	background-color: $green;
+	
+}
+.footer-links{
+	color: black;
+	font-weight: bold;
+}
