@@ -1,0 +1,19 @@
+{
+  "name": "formulario",
+  "version": "1.0.0",
+  "description": "creando un formulario con javascript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/velandia001/formulario.git"
+  },
+  "author": "Cesar, David",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/velandia001/formulario/issues"
+  },
+  "homepage": "https://github.com/velandia001/formulario#readme"
+}
